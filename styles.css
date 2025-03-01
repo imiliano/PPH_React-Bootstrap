@@ -1,10 +1,10 @@
 a:hover{
-    transform: scale(1.09);
-    transition: all ease-in-out .5s;
+    transform: scale(1.08);
+    transition: all ease-in-out .3s;
 }
 .buton:hover{
-    transform: scale(1.1);
-    transition: all ease-in-out .5s;
+    transform: scale(1.08);
+    transition: all ease-in-out .3s;
 }
 footer{
     margin-top: 10rem;
@@ -44,22 +44,4 @@ footer{
 }
 .desaparece{
     opacity: 0;
-}
-@media (min-width: 190px) {
-    .desaparece{
-        opacity: 1;
-    }
-}
-.aparece{
-    opacity: 1;
-}
-@media (min-width: 190px) {
-    .aparece{
-        opacity: 0;
-    }
-}
-@media (min-width: 768px) {
-    .aparece{
-        opacity: 1;
-    }
 }
