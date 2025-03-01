@@ -1,0 +1,64 @@
+a:hover{
+    transform: scale(1.09);
+    transition: all ease .8s;
+}
+#no-scale-hover:hover{
+    transform: scale(1);
+}
+footer{
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.circle-img:hover{
+    transform: scale(1.04);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.bg-main{
+    background-color:rgb(240, 240, 255)
+}
+.carnet{
+    border-color: black;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 0.2rem;
+}
+.center-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ubuntu-light{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.ubuntu-normal{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.ubuntu-bold{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.desaparece{
+    opacity: 0;
+}
+@media (min-width: 190px) {
+    .desaparece{
+        opacity: 1;
+    }
+}
+.aparece{
+    opacity: 1;
+}
+@media (min-width: 190px) {
+    .aparece{
+        opacity: 0;
+    }
+}
+@media (min-width: 768px) {
+    .aparece{
+        opacity: 1;
+    }
+}
