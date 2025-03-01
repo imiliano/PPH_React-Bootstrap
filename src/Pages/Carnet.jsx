@@ -5,15 +5,17 @@ export const Carnet = () => {
 
 <div className="container-xl my-5 border-top border-bottom">
     <div className="center-class">
-        <h2 className="fw-bold text-dark text-secondary">
+        <h2 className="fw-bold text-primary">
+            <br />
             Carnet Alberguista
+            <br />
         </h2>
         <br/>
         <h3 className="ubuntu-bold text-secondary">
-            El Carnet de Alberguista es un requisito imprescindible para acceder a cualquier albergue REAJ <br /> (Red Española de Albergues Juveniles)
+            El Carnet de Alberguista es un requisito imprescindible para acceder a cualquier albergue REAJ <small>(Red Española de Albergues Juveniles)</small>
         </h3>
 <br />
-            <h4 className="ubuntu-bold text-uppercase text-dark center-class">Obligatorio para mayores de 30 años</h4>
+            <h4 className="ubuntu-bold text-uppercase center-class">Obligatorio para mayores de 30 años</h4>
 <br />
         <h4 className="ubuntu-bold" >
             &euro; 2,50
