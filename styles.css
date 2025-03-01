@@ -1,9 +1,10 @@
 a:hover{
     transform: scale(1.09);
-    transition: all ease .8s;
+    transition: all ease-in-out .5s;
 }
-#no-scale-hover:hover{
-    transform: scale(1);
+.buton:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .5s;
 }
 footer{
     margin-top: 10rem;
