@@ -1,0 +1,54 @@
+{
+    "Contact":
+        {"Ubicación":"Emplacement"}
+    ,
+    "Footer":{
+        "AlbergueJuvenil":"Auberge de jeunesse"},
+    "Carnet":{
+        "title": "La carte de l'auberge",
+        "description": " C'est une condition essentielle pour accéder à n'importe quelle auberge REAJ",
+        "reaj": "Réseau espagnol d'auberges de jeunesse",
+        "mandatory": "Obligatoire pour les personnes de plus de 30 ans."
+    },
+    "Navegacion":{
+        "galeria":
+        "galerie",
+        "contacto":
+        "contact",
+        "carnet":
+        "Carte d'Auberge",
+        "reserva":
+        "réservation"
+    },
+    "habitaciones":{
+        "title": "chambres",
+        "beds": "10, 8, 6 et 4 lits par chambre",
+        "taquillas": "casiers individuels",
+        "luz": "lumière, prise et étagère",
+        "aire": "climatisation",
+        "calefacción": "chauffage"
+    },
+    "cocina":{
+        "title": "cuisine",
+        "frigo": "réfrigérateur",
+        "freezer": "congélateur",
+        "vitro": "vitrocéramique",
+        "micro": "micro-ondes",
+        "menaje": "ustensiles de cuisine",
+        "lava": "machine à laver",
+        "seca":"séchoir"
+    },
+    "salon":{
+        "title": "salon, salle à manger",
+        "vending": "distributeur automatique",
+        "cafe": "machine à café",
+        "juegos": "jeux de société"
+    },
+    "servicios":{
+        "title": "services supplémentaires",
+        "terraza": "terrasse",
+        "bici": "parking à vélos",
+        "cameras": "caméras de sécurité",
+        "consignas": "service de casiers"
+    }
+}

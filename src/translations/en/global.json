@@ -1,0 +1,54 @@
+{
+    "Contact":{
+        "Ubicación":"Location"
+    },
+    "Footer":{
+        "AlbergueJuvenil":"Youth Hostel"},
+    "Carnet":{
+        "title":"Youth Hostel Card",
+        "description": " is an essential requirement to access any REAJ hostel",
+        "reaj": "Spanish Network of Youth Hostels",
+    "mandatory":"Mandatory for those over 30 years of age."
+    },
+    "Navegacion":{
+        "galeria":
+            "gallery",
+        "contacto":
+            "contact",
+        "carnet":
+            "youth hostel card",
+        "reserva":
+            "reservation"
+    },
+    "habitaciones":{
+        "title": "bedrooms",
+        "beds": "10, 8, 6 y 4 bedrooms per room", 
+        "taquillas": "individual lockers",
+        "luz": "light, socket and shelf",
+        "aire": "air conditioning",
+        "calefacción": "heating"
+    },
+    "cocina":{
+        "title": "kitchen",
+        "frigo":"refrigerator", 
+        "freezer":"freezer", 
+        "vitro":"ceramic hob", 
+        "micro":"microondas", 
+        "menaje": "kitchen utensils", 
+        "lava":"washing machine", 
+        "seca":"dryer"
+    },
+    "salon":{
+        "title": "living room",
+        "vending": "vending machine",
+        "cafe": "coffee machine",
+        "juegos": "table games"
+    },
+    "servicios":{
+        "title":"additional services",
+        "terraza": "terrace",
+        "bici": "bicycle parking",
+        "cameras": "security cameras",
+        "consignas": "luggage service"
+    }
+}

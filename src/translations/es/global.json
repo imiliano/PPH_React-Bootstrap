@@ -1,0 +1,54 @@
+{
+    "Contact":{
+        "Ubicación":"Ubicación"
+    },
+    "Footer":{
+        "AlbergueJuvenil":"Albergue Juvenil"},
+    "Carnet":{
+        "title":"El carnet de Alberguista",
+        "description": " es un requisito imprescindible para acceder a cualquier albergue REAJ",
+        "reaj": "Red Española de Albergues Juveniles",
+    "mandatory":"Obligatorio para mayores de 30 años."
+    },
+    "Navegacion":{
+        "galeria":
+            "galeria",
+        "contacto":
+            "contacto",
+        "carnet":
+            "Carnet Alberguista",
+        "reserva":
+            "reserva"
+    },
+    "habitaciones":{
+        "title": "habitaciones",
+        "beds": "10, 8, 6 y 4 camas por habitación", 
+        "taquillas": "taquillas individuales",
+        "luz": "luz, enchufe y balda",
+        "aire": "aire acondicionado",
+        "calefacción": "calefacción"
+    },
+    "cocina":{
+        "title": "cocina",
+        "frigo":"frigorífico", 
+        "freezer":"congelador", 
+        "vitro":"vitrocerámica", 
+        "micro":"microondas", 
+        "menaje": "menaje de cocina", 
+        "lava":"lavadora", 
+        "seca":"secadora"
+    },
+    "salon":{
+        "title": "salón, comedor",
+        "vending": "máquina vending",
+        "cafe": "máquina de café",
+        "juegos": "juegos de mesa"
+    },
+    "servicios":{
+        "title":"servicios adicionales",
+        "terraza": "terraza",
+        "bici": "parking de bicicletas",
+        "cameras": "cámaras de seguridad",
+        "consignas": "servicio de consignas"
+    }
+}

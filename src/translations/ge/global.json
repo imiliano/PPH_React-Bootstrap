@@ -1,0 +1,54 @@
+{
+    "Contact":{
+        "Ubicación":"Standort"
+    },
+    "Footer":{
+        "AlbergueJuvenil":"Jugendherberge"},
+    "Carnet":{
+        "title":"Jugendherbergsausweis",
+        "description": " Der Jugendherbergsausweis ist eine Grundvoraussetzung für den Zutritt zu allen REAJ-Herbergen",
+        "reaj": "Spanisches Netzwerk von Jugendherbergen",
+    "mandatory":"Obligatorisch für Personen über 30 Jahre."
+    },
+    "Navegacion":{
+        "galeria":
+            "galerie",
+        "contacto":
+            "Kontakt",
+        "carnet":
+            "Jugendherbergsausweis",
+        "reserva":
+            "Reservierung"
+    },
+    "habitaciones":{
+        "title": "Schlafzimmer",
+        "beds": "10, 8, 6 y 4 Schlafzimmer pro Zimmer", 
+        "taquillas": "einzelne Schließfächer",
+        "luz": "licht, Steckdose und Ablage",
+        "aire": "Klimaanlage",
+        "calefacción": "Heizung"
+    },
+    "cocina":{
+        "title": "Küche",
+        "frigo":"Kühlschrank", 
+        "freezer":"Gefrierschrank", 
+        "vitro":"Cerankochfeld", 
+        "micro":"Mikrowelle", 
+        "menaje": "Küchenutensilien", 
+        "lava":"Waschmaschine", 
+        "seca":"Trockner"
+    },
+    "salon":{
+        "title": "Wohnzimmer",
+        "vending": "Verkaufsautomat",
+        "cafe": "Kaffeemaschine",
+        "juegos": "Brettspiele"
+    },
+    "servicios":{
+        "title":"Zusatzleitungen",
+        "terraza": "Terrasse",
+        "bici": "Fahrradabstellplatz",
+        "cameras": "Sicherheitskameras",
+        "consignas": "Gepäckservice"
+    }
+}
