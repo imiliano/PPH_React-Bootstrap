@@ -7,31 +7,29 @@ export const Footer = () => {
 
   return (
 <>
-    <footer className="center-class ubuntu-bold mt-3">
+    <footer className="center-class ubuntu-bold m-3">
         <p>&copy; <span>{ new Date().getFullYear() }</span> - Palma Port Hostel - {t("Footer.AlbergueJuvenil")}</p>
 
 <section>
-<div className="col-md-3 p-1">
     <Button className="btn-sm" variant="outline-dark fw-bold" onClick={() => i18n.changeLanguage('es')}>
+    <img width={15} src="es.png" alt="bandera expañola"/>
     ES
     </Button>
-</div>
 
-<div className="col-md-3 p-1">
-    <Button className="btn-sm" variant="outline-dark fw-bold" onClick={() => i18n.changeLanguage('en')}>
+    <Button className="btn-sm mx-1" variant="outline-dark fw-bold" onClick={() => i18n.changeLanguage('en')}>
+    <img width={15} src="en.png" alt="bandera inglesa"/>
     EN
     </Button>
-</div>
-<div className="col-md-3 p-1">
+
     <Button className="btn-sm" variant="outline-dark fw-bold" onClick={() => i18n.changeLanguage('ge')}>
+    <img width={15} src="ge.png" alt="bandera alemana"/>
     GE
     </Button>
-</div>
-<div className="col-md-3 p-1">
-    <Button className="btn-sm" variant="outline-dark fw-bold" onClick={() => i18n.changeLanguage('fr')}>
+
+    <Button className="btn-sm mx-1" variant="outline-dark fw-bold" onClick={() => i18n.changeLanguage('fr')}>
+    <img width={15} src="fr.png" alt="bandera francesa"/>
     FR
     </Button>
-</div>
 </section>
 
     </footer>
