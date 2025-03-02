@@ -1,6 +1,9 @@
-import { Button } from 'react-bootstrap';
+import { Button, NavLink } from "react-bootstrap"
+import { useTranslation } from "react-i18next"
 
 export const Inicio = () => {
+    const [ t ] = useTranslation('global')
+
   return (
 <>
 
@@ -9,53 +12,55 @@ export const Inicio = () => {
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/Zona_Comun.webp" alt="imagen salon-comedor" />
-        <h1 className="text-secondary">salón, comedor</h1>
+        <h1 className="text-secondary"> {t('salon.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
                 <li>televisión</li> 
-                <li>máquina de café</li>  
-                <li>máquina vending </li> 
-                <li>juegos de mesa</li>
+                <li> {t('salon.cafe')} </li>  
+                <li> {t('salon.vending')} </li> 
+                <li> {t('salon.juegos')} </li>
             </section>
 </div>
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/Habitaciones.webp" alt="imagen habitacion" />
-        <h1 className="text-secondary">habitaciones</h1>
+        <h1 className="text-secondary"> {t('habitaciones.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
-                <li>10, 8, 6 y 4 camas por habitación</li>
-                <li>taquillas individuales</li>
-                <li>luz, enchufe y balda</li>
-                <li>aire acondicionado</li>
-                <li>calefacción</li>
+                <li> {t('habitaciones.beds')} </li>
+                <li> {t('habitaciones.taquillas')} </li>
+                <li> {t('habitaciones.luz')} </li>
+                <li> {t('habitaciones.aire')} </li>
+                <li> {t('habitaciones.calefacción')} </li>
             </section>
 </div>
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/cocina.webp" alt="imagen habitacion" />
-        <h1 className="text-secondary">cocina</h1>
+        <h1 className="text-secondary"> {t('cocina.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
-                <li>frigorífico</li>
-                <li>congelador</li>
-                <li>vitrocerámica</li>
-                <li>microóndas</li>
-                <li>menaje de cocina</li>
-                <li>lavadora</li>
-                <li>secadora</li>
+                <li> {t('cocina.frigo')} </li>
+                <li> {t('cocina.freezer')} </li>
+                <li> {t('cocina.vitro')} </li>
+                <li> {t('cocina.micro')} </li>
+                <li> {t('cocina.menaje')} </li>
+                <li> {t('cocina.lava')} </li>
+                <li> {t('cocina.seca')} </li>
             </section>
 </div>
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/terraza.webp" alt="imagen terraza" />
-        <h1 className="text-secondary">servicios adicionales</h1>
+        <h1 className="text-secondary"> {t('servicios.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
-                <li>terraza</li>
-                <li>wifi gratuito</li>
-                <li>parking de bicicletas</li>
-                <li>cámaras de seguridad</li>
-                <li><a className="text-decoration-none" href="https://www.palmaportlockers.com">servicio de consignas</a> (de pago)</li>
+                <li> wifi </li>
+                <li> {t('servicios.terraza')} </li>
+                <li> {t('servicios.bici')} </li>
+                <li> {t('servicios.cameras')} </li>
+                <NavLink href="https://www.palmaportlockers.com">
+                <li> {t('servicios.consignas')} </li>
+                </NavLink>
             </section>
 </div>
-      
+
     </div>
 </div>
 
