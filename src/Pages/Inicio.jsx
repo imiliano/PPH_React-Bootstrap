@@ -12,7 +12,7 @@ export const Inicio = () => {
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/Zona_Comun.webp" alt="imagen salon-comedor" />
-        <h1 className="text-secondary"> {t('salon.title')} </h1>
+        <h1 className="text-secondary text-center"> {t('salon.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
                 <li>televisión</li> 
                 <li> {t('salon.cafe')} </li>  
@@ -23,7 +23,7 @@ export const Inicio = () => {
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/Habitaciones.webp" alt="imagen habitacion" />
-        <h1 className="text-secondary"> {t('habitaciones.title')} </h1>
+        <h1 className="text-secondary text-center"> {t('habitaciones.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
                 <li> {t('habitaciones.beds')} </li>
                 <li> {t('habitaciones.taquillas')} </li>
@@ -35,7 +35,7 @@ export const Inicio = () => {
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/cocina.webp" alt="imagen habitacion" />
-        <h1 className="text-secondary"> {t('cocina.title')} </h1>
+        <h1 className="text-secondary text-center"> {t('cocina.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
                 <li> {t('cocina.frigo')} </li>
                 <li> {t('cocina.freezer')} </li>
@@ -49,7 +49,7 @@ export const Inicio = () => {
 
 <div className="col-md-3">
     <img className="rounded img-fluid" src="/terraza.webp" alt="imagen terraza" />
-        <h1 className="text-secondary"> {t('servicios.title')} </h1>
+        <h1 className="text-secondary text-center"> {t('servicios.title')} </h1>
             <section className="mb-1 text-uppercase text-primary ubuntu-bold">
                 <li> wifi </li>
                 <li> {t('servicios.terraza')} </li>
