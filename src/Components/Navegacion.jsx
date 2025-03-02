@@ -1,7 +1,10 @@
 import { Navbar, Nav, NavbarToggle } from "react-bootstrap"
+import { useTranslation } from "react-i18next"
 import { NavLink } from "react-router-dom"
 
 export const Navegacion = () => {
+    const [ t ] = useTranslation('global')
+
   return (
     <div className="center-class">
     <NavLink
@@ -18,26 +21,26 @@ export const Navegacion = () => {
     <NavLink
     className={ ({ isActive }) => `text-uppercase text-decoration-none fs-5 mx-2 ${ isActive ? 'active' : ''}` }
     to={ 'galeria' }
-    > Galeria
+    > {t('Navegacion.galeria')}
     </NavLink>
 
     <NavLink
     to={ 'contacto'} 
     className="text-uppercase text-decoration-none fs-5 mx-2"
-    > Contacto
+    > {t('Navegacion.contacto')}
     </NavLink>
 
     <NavLink
     to={ 'carnet' }
     className="text-uppercase text-decoration-none fs-5 mx-2"
-    > Carnet Alberguista
+    > {t('Navegacion.carnet')}
     </NavLink>
 
     <NavLink 
     target="blank_"
     className="text-uppercase text-decoration-none fs-5 mx-2"
     to={`https://booking.avirato.com/?code=6818963`} 
-    > Reserva
+    > {t('Navegacion.reserva')}
     </NavLink>
 </Nav>
 
