@@ -1,17 +1,19 @@
 import { NavLink } from "react-bootstrap"
+import { useTranslation } from "react-i18next"
 
 export const Carnet = () => {
+    const [ t ] = useTranslation('global')
+
   return (
 <div className="container-xl my-4">
     <div className="center-class">
 <br/>
         <h4 className="ubuntu-bold text-secondary text-center">
-            <span className="text-dark">El Carnet de Alberguista</span> es un requisito imprescindible para acceder a cualquier albergue REAJ
-            <br />
-            <small>(Red Española de Albergues Juveniles)</small>
+            <span className="text-dark">{t("Carnet.title")}</span>{t("Carnet.description")}<br />
+            <small>{t('Carnet.reaj')}</small>
         </h4>
 <br />
-            <h5 className="ubuntu-bold text-uppercase">Obligatorio para mayores de 30 años</h5>
+            <h5 className="ubuntu-bold text-uppercase">{t("Carnet.mandatory")}</h5>
 <br />
         <h5 className="ubuntu-bold" >
             &euro; 2,50
@@ -20,7 +22,8 @@ export const Carnet = () => {
     <NavLink target="blank_" href="https://p.reaj.com/reaj/subscriptions/recepcion-albergues-reaj">
         <img className="img-fluid carnet" width="200px" src="/carnet.webp" alt="imagen-carnet"/>
     </NavLink>
-        </div> 
+    
+        </div>
     </div>
   )
 }
