@@ -1,4 +1,4 @@
 # PPH 2025
 
-* Actualización de la web del 'Palma Port Hostel'.
-* Yarn + Vite / React + react-bootstrap.
+* Yarn + Vite / React + Bootstrap + i18next
+* Actualizando la web del 'Palma Port Hostel'.
