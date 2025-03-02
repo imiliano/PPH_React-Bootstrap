@@ -1,5 +1,9 @@
+import { useTranslation } from "react-i18next"
+
 
 export const Contact = () => {
+
+    const [ t ] = useTranslation('global')
 
   return (
 <>
@@ -39,7 +43,7 @@ export const Contact = () => {
     <div className="row">
 
         <div className="center-class">
-        <h4 className="ubuntu-bold my-4">Location:</h4>
+        <h4 className="ubuntu-bold my-4">{ t( "Contact.Ubicación" ) }</h4>
         
             <a target="_blank" className='text-decoration-none' id="no-scale-hover" href="https://goo.gl/maps/RvMCVweFFaduTwD38">
             <hr />
