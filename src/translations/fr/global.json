@@ -1,14 +1,13 @@
 {
     "Contact":
-        {"Ubicación":"Emplacement"}
-    ,
+        {"Ubicación":"Emplacement"},
     "Footer":{
         "AlbergueJuvenil":"Auberge de jeunesse"},
     "Carnet":{
         "title": "La carte de l'auberge",
         "description": " C'est une condition essentielle pour accéder à n'importe quelle auberge REAJ",
         "reaj": "Réseau espagnol d'auberges de jeunesse",
-        "mandatory": "Obligatoire pour les personnes de plus de 30 ans."
+        "mandatory": "La carte d'auberge de jeunesse est obligatoire pour les personnes de plus de 30 ans."
     },
     "Navegacion":{
         "galeria":
